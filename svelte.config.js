@@ -8,7 +8,11 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		// this should be the default behavior, it should not be required to be set explicitly
+		// prerender: {
+		// 	default: true,
+		// }
 	}
 };
 
